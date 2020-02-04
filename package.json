@@ -1,0 +1,37 @@
+{
+  "name": "exos",
+  "version": "0.0.1",
+  "description": "A simple workplace helper for increasing productivity",
+  "main": "app.ts",
+  "author": "Barak Codes",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "watch": "ts-node-dev --respawn --transpileOnly src/app.ts"
+  },
+  "dependencies": {
+    "args": "^5.0.1",
+    "chalk": "^3.0.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^5.0.0",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.4",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/args": "^3.0.0",
+    "@types/chalk": "^2.2.0",
+    "@types/clear": "^0.1.0",
+    "@types/clui": "^0.3.0",
+    "@types/configstore": "^4.0.0",
+    "@types/figlet": "^1.2.0",
+    "@types/inquirer": "^6.5.0",
+    "@types/node": "^13.7.0",
+    "ts-node": "^8.6.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "tslint": "^6.0.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.7.5"
+  }
+}
