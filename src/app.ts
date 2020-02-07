@@ -5,12 +5,15 @@ const clear = require("clear");
 import * as figlet from "figlet";
 // import * as args from 'args';
 import * as commander from "commander";
+import { getCurrentDirectory } from "./file_handler";
 
 clear();
 console.log(
   chalk.blueBright(figlet.textSync("exos", { horizontalLayout: "full" }))
 );
 // plan out the promptser
+
+getCurrentDirectory();
 commander.version("0.1.0");
 
 // command to initalize projects

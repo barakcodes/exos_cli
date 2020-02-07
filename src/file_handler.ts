@@ -8,3 +8,7 @@ export const getCurrentDirectoryBase = () => {
 export const directoryExists = (filePath: string) => {
   return fs.existsSync(filePath);
 };
+
+export const getCurrentDirectory = () => {
+  console.log(`get the current directory ${path.dirname(process.cwd())}`);
+};

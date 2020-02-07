@@ -4,7 +4,7 @@ import {
   FULLSTACK_PROJECT_TYPES,
   BACKEND_PROJECT_TYPES,
   MOBILE_PROJECT
-} from "./constants/enums";
+} from "../constants/enums";
 
 export const askGithubCredentials = () => {
   const questions = [
