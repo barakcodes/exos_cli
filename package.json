@@ -17,7 +17,7 @@
     "configstore": "^5.0.0",
     "figlet": "^1.2.4",
     "inquirer": "^7.0.4",
-    "minimist": "^1.2.2"
+    "minimist": "^1.2.3"
   },
   "devDependencies": {
     "@types/args": "^3.0.0",
